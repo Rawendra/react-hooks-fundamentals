@@ -43,6 +43,6 @@ test("should check if the button is clicked, then the value is added correctly",
   const { getByTestId } = render(<Counter />);
   const addButton = getByTestId("add-btn");
   fireEvent.click(addButton);
-  const counter = getByTestId("input-element");
-  expect(counter.value).toBe("1");
+  const counter = getByTestId("counter");
+  expect(counter.textContent).toBe("1");
 });
