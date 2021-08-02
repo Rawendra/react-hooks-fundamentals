@@ -9,14 +9,15 @@ import DashBoard from './components/renderProps/DashBoard'
 import Home2 from './components/Home/Home2'
 import Home3 from './components/Home/Home3'
 import DashBoard2 from './components/renderPropsRevisited/DashBoard'
-import ExampleOnRef from './components/useRef/ExampleOnRef'
+import ExampleOnRef from './components/useRef/ExampleOnRef';
+import Counter from "./components/counter/Counter";
 export default class Home extends React.Component {
   constructor() {
     super();
   }
   render() {
     return (
-      <ExampleOnRef />
+      <Counter />
     );
   }
 }
