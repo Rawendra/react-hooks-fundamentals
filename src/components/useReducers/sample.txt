@@ -1,0 +1,46 @@
+
+component C(){
+
+    cosnt fun(number){
+        return number^2
+    }
+    this.props.
+}
+
+component A(){
+
+    cosnt fun(number){
+        return number^2
+    }
+
+    render(){
+        <>
+
+        <C number={function()} />
+    }
+    
+}
+
+
+component B(){
+
+    cosnt fun(number){
+        return number^2
+    }
+
+    render(){
+        <>
+
+        {number}
+    }
+    
+}
+
+ 
+        <compna=A>{
+            prop
+        }
+        <B>
+    }
+
+}
